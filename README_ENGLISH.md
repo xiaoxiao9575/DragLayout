@@ -1,12 +1,12 @@
 # DragLayout
 
-[README ENGLISH](https://github.com/xiaoxiao9575/DragLayout/blob/master/README_ENGLISH.md)
+[README 中文版](https://github.com/xiaoxiao9575/DragLayout/blob/master/README.md)
 
-一个悬浮可拖动的layout，实现其子view的拖动，拖动到任意位置都不影响点击。
+the view in DragLayout can be easily dragged anywhere and click events are unaffected.
 ![image](https://github.com/xiaoxiao9575/DragLayout/blob/master/gif/dragLayout.gif)
 
-##一、接入方法：
-###1，在app的build.gradle添加
+##HOW TO INTEGRATE：
+###1，Add it in your root build.gradle at the end of repositories:
 
 	allprojects {
 		repositories {
@@ -15,15 +15,13 @@
 		}
 	}
 
-###2，在app的build.gradle添加
+###2，Add the dependency:
 
 	dependencies {
 	        implementation 'com.github.xiaoxiao9575:DragLayout:1.0.0'
 	}
 
-
-
-##二、使用方法：
+##HOW TO USE：
 
     <com.github.gjp.draglayout.DragLayout
         android:layout_width="match_parent"
@@ -38,7 +36,7 @@
 
     </com.github.gjp.draglayout.DragLayout>
 
-##三、如果使用中存在问题和建议请在我的CSDN中留言
+##If you have any problems and Suggestions, please leave messages in my CSDN.
 https://blog.csdn.net/weixin_40998254/article/details/86513643
 
 
